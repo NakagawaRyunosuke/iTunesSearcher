@@ -36,6 +36,9 @@ export default{
         async exe(){
             this.$emit("loadStart")
             const {data} = await axios.get(`https://itunes.apple.com/search?term=${this.term}&country=jp&media=${this.currentSelect}&lang=ja_jp`)
+            .catch(error => {
+                console.log(error.response)
+            })
             this.$emit("loadComplete",{results:data.results})
         }
     }
