@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'iTunesSearcher'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2E461023A63E42CB8E27C36EC93C38C2 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_C566A1C661F94F829A1F686155E666FF }}
           package: .
