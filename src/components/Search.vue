@@ -25,7 +25,7 @@ export default{
     data(){
         return{
             term:"",
-            currentSelect:""
+            currentSelect:"all"
         }
     },
     methods:{
