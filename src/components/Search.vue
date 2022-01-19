@@ -31,6 +31,7 @@ export default{
     methods:{
         onChange(e){
             this.currentSelect = e.target.value;
+            console.log(this.currentSelect)
         },
         async exe(){
             this.$emit("loadStart")
