@@ -44,7 +44,10 @@ export default{
 <style scoped>
 .container{
     display:flex;
+    position: fixed;
+    top: 55px;
     justify-content: center;
+    width: 100%;
     height: 70px;
     padding: 20px;
     background-color: #35495e;
