@@ -1,6 +1,6 @@
 <template>
   <div class="root">
-    <Navi class="navi"/>
+    <Navi/>
     <Search class="search" @loadStart="onLoadStart" @loadComplete="onLoadComplete"/>
     <Result :items="items" :loadProgress="loadProgress" :result="result"/>
   </div>
